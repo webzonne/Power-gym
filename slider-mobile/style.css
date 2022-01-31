@@ -1,0 +1,80 @@
+.owl-nav{
+    display: none;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    left: 145px;
+    top: 357px;
+}
+
+
+/* TODOS LOS TELEFONOS MOBILES ESTILO DEL SLIDER MOBIL COMIENZA */
+
+
+
+@media (min-width:375px){
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    left:159px;
+    top: 378px;
+    }
+    
+}
+
+@media (min-width:393px){
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    left:159px;
+    top: 393px;
+    }
+    
+}
+
+@media (min-width:412px){
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    left: 179px;
+    top: 406px;
+    }
+    
+}
+
+@media (min-width:414px){
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    left: 179px;
+    top: 414px;
+    }
+    
+}
+
+@media (min-width:450px){
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    left: 191px;
+    top: 450px;
+    }
+    
+}
+
+@media (min-width:482px){
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    left:207px;
+    top:483px;
+    }
+    
+}
+
+/* TODOS LOS TELEFONOS MOBILES ESTILO DEL SLIDER MOBILE TERMINA */
+
+
+.owl-theme .owl-dots .owl-dot span{
+    background: #FFCB00;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: white;
+}
+
