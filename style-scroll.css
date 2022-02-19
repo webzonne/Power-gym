@@ -1,0 +1,232 @@
+#title-program.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#title-program.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+#about-text.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#about-text.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#about-img.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#about-img.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#consultation-tarjet-mobile.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#consultation-tarjet-mobile.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#consultation-tarjet.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#consultation-tarjet.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#title-membresia.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#title-membresia.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#one.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#one.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#two.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#two.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#theree.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#theree.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#title-footer-desk.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#title-footer-desk.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#contact-usan-desk.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#contact-usan-desk.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#footer-all-item.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#footer-all-item.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#logo-title.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#logo-title.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#contact-usan.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#contact-usan.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#about-us-footer.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#about-us-footer.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#program-footer.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#program-footer.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#ready-footer.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#ready-footer.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#copy-right.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#copy-right.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
