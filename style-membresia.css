@@ -1,0 +1,294 @@
+.membresia-content{
+    background: #0B0C0E;
+    color: white;
+    padding: 20px;
+}
+
+.membresia-content h1{
+    font-size:25px;
+    text-align: center;
+    padding-top: 67px;
+    padding-bottom: 50px;
+}
+
+.content-membresia .one{
+    max-width: 260px;
+    background: black;
+    margin: auto;
+    margin-bottom: 47px;
+}
+
+.content-membresia .one .title{
+    color:#727272;
+    background:#FFCB00;
+    text-align: center;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.content-membresia .one ul{
+    width: 180px;
+    margin: 40px auto;
+    
+}
+
+.content-membresia .one ul li{
+    list-style: none;
+    color: #727272;
+    border: 1px solid #727272;
+    text-align: center;
+    padding: 15px;
+    font-family: roboto;
+}
+
+.content-membresia .money{
+    font-size: 60px;
+    font-family: roboto;
+    font-weight:700;
+    font-style: bold;
+    text-align: center; 
+}
+
+.content-membresia .one .money span{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight:700;
+    position: relative;
+    top: -35px;
+    left:7px;
+}
+
+
+.content-membresia .one .dolar{
+    font-size: 40px;
+    font-family: roboto;
+    font-weight:700;
+    font-style: bold;
+    text-align: center; 
+    position: relative;
+    top: -50px;
+    left:29px;
+}
+
+/* TWO */
+
+.content-membresia .two{
+    max-width: 260px;
+    background:#FFCB00;
+    margin: auto;
+    margin-bottom: 47px;
+}
+
+.content-membresia .two .title{
+    color:white;
+    background:black;
+    text-align: center;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 7px;
+}
+
+.content-membresia .two ul{
+    width: 180px;
+    margin: 40px auto;
+    
+}
+
+.content-membresia .two ul li{
+    list-style: none;
+    color: white;
+    border: 1px solid #B9B9B9;
+    text-align: center;
+    padding: 15px;
+    font-family: roboto;
+}
+
+.content-membresia .money span{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight:700;
+    position: relative;
+    top: -35px;
+    left:7px;
+}
+
+
+.content-membresia .two .dolar{
+    font-size: 40px;
+    font-family: roboto;
+    font-weight:700;
+    font-style: bold;
+    text-align: center; 
+    position: relative;
+    top: -50px;
+    left:46px;
+}
+
+/* THEREE */
+@media (min-width:502px){
+    .membresia-content h1{
+    font-size:38px;
+    text-align: center;
+    padding-top: 67px;
+    padding-bottom: 50px;
+    }
+}
+.membresia-content{
+    background: #0B0C0E;
+    color: white;
+}
+
+
+
+.content-membresia .theree{
+    max-width: 260px;
+    background: black;
+    margin: auto;
+    margin-bottom: 47px;
+   
+}
+
+.content-membresia .theree .title{
+    color:#727272;
+    background:#FFCB00;
+    text-align: center;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.content-membresia .theree ul{
+    width: 180px;
+    margin: 40px auto;
+    
+}
+
+.content-membresia .theree ul li{
+    list-style: none;
+    color: #727272;
+    border: 1px solid #727272;
+    text-align: center;
+    padding: 15px;
+    font-family: roboto;
+}
+
+.content-membresia  .theree .money{
+    font-size: 60px;
+    font-family: roboto;
+    font-weight:700;
+    font-style: bold;
+    text-align: center; 
+}
+
+.content-membresia .theree .money span{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight:700;
+    position: relative;
+    top: -35px;
+    left:7px;
+}
+
+
+.content-membresia .theree .dolar{
+    font-size: 40px;
+    font-family: roboto;
+    font-weight:700;
+    font-style: bold;
+    text-align: center; 
+    position: relative;
+    top: -50px;
+    left:46px;
+}
+
+@media (min-width:768px){
+    .content-membresia{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .content-membresia .one{
+        margin: 0 auto;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .content-membresia .one:hover{
+        transform: scale(1.1);
+    }
+    
+    .content-membresia .one ul{
+        margin:auto;
+        margin-top: 40px;
+        margin-bottom:44px;
+    }
+    
+    .content-membresia .two{
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .content-membresia .two:hover{
+        transform: scale(1.1);
+    }
+    
+    .content-membresia .two ul{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom:44px;
+    }
+    
+    .content-membresia .two .dolar{
+        margin-bottom: 20px;
+    }
+    
+    .content-membresia .theree{
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .content-membresia .theree:hover{
+        transform: scale(1.1);
+    }
+    
+    .content-membresia .theree ul{
+        margin: auto;
+        margin-top: 44px;
+        margin-bottom: 44px;
+    }
+    
+    .content-membresia .theree{
+        margin: 0 auto;
+        margin-bottom: 47px;
+    }
+    
+}
+
+@media (min-width:1024px){
+    
+    .content-membresia{
+        width: 1024px;
+        margin: auto;
+    }
+    
+    .content-membresia .one{
+        width: 341px;
+    }
+    
+    .content-membresia .two{
+        width: 341px;
+    }
+    
+    .content-membresia .theree{
+        width: 341px;
+    }
+}
+
+
+
+

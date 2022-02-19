@@ -1,0 +1,102 @@
+#title-program.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#title-program.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+#about-text.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#about-text.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#about-img.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#about-img.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#consultation-tarjet-mobile.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#consultation-tarjet-mobile.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#consultation-tarjet.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#consultation-tarjet.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#title-membresia.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#title-membresia.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#content-membresia.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#content-membresia.anime{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#footer-content.move{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+#footer-content.anime{
+    transform: translateY(0);
+    opacity: 1;
+}

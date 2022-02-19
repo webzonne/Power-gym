@@ -1,0 +1,156 @@
+/* MOBILE COMIENZA*/
+
+.consultation-fondo{
+    display: none;
+}
+
+.consultation-mobile img{
+    width: 100%;
+}
+.consultation-tarjet-mobile{
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-top: -7px;
+    width: 100% !important;
+}
+
+.consultation-tarjet-mobile h3{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: roboto;
+}
+
+.consultation-tarjet-mobile p{
+    margin-top:20px;
+    margin: 0 10px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height:2;
+    text-align: center;
+    font-family: roboto;
+}
+
+
+.consultation-content-button-mobile{
+    text-align: center;
+}
+
+.consultation-content-button-mobile button{
+    background:#FFCB00;
+    padding: 4px 80px;
+    font-size: 24px;
+    border: none;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.consultation-content-button-mobile button:hover{
+    background: white;
+}
+/* MOBILE TERMINA */
+
+    /*DESK COMIENZA*/
+@media (min-width:758px){
+    .consultation-mobile{
+        display: none;
+    }
+    .consultation-fondo{
+        display: block;
+    }
+
+.consultation-fondo{
+ position: relative;
+ margin-bottom: -7px;
+}
+
+.consultation-fondo img{
+    width: 100%;
+}
+
+.consultation-tarjet{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding:5px;
+}
+
+.consultation-tarjet{
+    position: absolute;
+    top:10%;
+    right:1%;
+}
+.consultation-tarjet h3{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: roboto;
+}
+
+.consultation-tarjet p{
+    margin-top:20px;
+    margin: 0 10px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height:2;
+    font-family: roboto;
+}
+
+.consultation-tarjet{
+    max-width: 430px;
+}
+
+.consultation-content-button{
+    text-align: center;
+}
+
+.consultation-content-button button{
+    background:#FFCB00;
+    padding: 4px 80px;
+    font-size: 24px;
+    border: none;
+    transition: 0.3s;
+}
+
+.consultation-content-button button:hover{
+    background: white;
+    }
+
+}
+
+@media (min-width:1000px){
+   .consultation-tarjet{
+    max-width: 530px;
+    }
+    .consultation-tarjet{
+    padding:25px;
+    }
+    
+    .consultation-tarjet{
+    position: absolute;
+    top:10%;
+    right:4%;
+    }
+}
+
+@media (min-width:1280px){
+    .consultation-tarjet{
+    position: absolute;
+    top:15%;
+    right:8%;
+    }
+    .consultation-tarjet p{
+      margin-bottom:80px;
+    }
+}
+
+@media (min-width:1600px){
+    .consultation-tarjet h3{
+    font-size: 30px;
+    }
+    .consultation-tarjet p{
+       font-size: 25px; 
+    }
+}
+/*DESK TERMINA*/
+

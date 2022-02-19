@@ -1,0 +1,328 @@
+
+#nodal{
+	z-index: 100;
+	position: fixed;
+	top:0;
+	width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.97);
+    transition: all 0.8s;
+    display: none;
+}
+
+.nodal-content{
+	padding-top:1px;
+}
+
+.nodal-mobile{
+	background: black;
+	max-width: 368px;
+	margin:auto;
+	overflow: scroll;
+	height: 667px;
+	position: relative;
+
+}
+
+.nodal-desk{
+	display: none;
+}
+
+.title-nodal-desk p{
+	font-size: 45px;
+	font-weight: 700;
+	font-family: roboto;
+	color: white;
+	text-align: center;
+}
+
+.title-nodal-desk span{
+	font-size: 45px;
+	font-weight: 700;
+	font-family: roboto;
+	color:#FFCB00;
+}
+
+.section-2-nodal-desk{
+	display: flex;
+	margin-left: 100px;
+}
+
+.section-2-nodal-desk div{
+	margin: 20px 20px;
+}
+
+.section-2-nodal-desk p{
+	color: white;
+	font-family: roboto;
+	margin-bottom: 25px;
+}
+.section-3-nodal-desk{
+	display: flex;
+}
+.section-3-nodal-desk .social-desk-nodal{
+	background: #D8D8D8;
+	max-width: 60px;
+}
+
+.section-3-nodal-desk .social-desk-nodal img{
+	width: 46px;
+	margin: 10px auto;
+	height: auto;
+	cursor: pointer;
+}
+
+.section-3-nodal-desk .social-desk-nodal img:nth-child(1){
+	margin-top: 25px;
+}
+
+.section-3-nodal-desk .form-desk{
+	margin-left: 70px;
+}
+
+.section-3-nodal-desk .form-desk input{
+	background: none;
+	border: none;
+	border-bottom: 1px solid #686767;
+	color: white;
+	font-family: roboto;
+	font-size:20px;
+	padding-bottom:15px; 
+}
+
+.section-3-nodal-desk .form-desk input:nth-child(1){
+	margin-bottom:53px;
+	margin-right:43px; 
+}
+
+.section-3-nodal-desk .form-desk textarea{
+	background: none;
+	color: white;
+	width: 230px;
+	height: 110px;
+}
+
+.section-3-nodal-desk .form-desk button{
+	font-family: roboto;
+	color: white;
+	background:#FFCB00;
+	border:none;
+	font-size: 25px;
+	font-weight: 700;
+	padding: 0 80px;
+	margin-left: 50px;
+	position: relative;
+	top: -10px;
+
+}
+
+/* termina nodal mobile */
+.title-nodal p{
+   font-family: roboto;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 57px;
+    margin-bottom: 37px;
+}
+
+.title-nodal span{
+	font-family: roboto;
+    font-weight: 700;
+    font-size: 30px;
+	color: #FFCB00;
+}
+
+.section-2-nodal p{
+	font-family: roboto;
+	font-size: 15px;
+	color: white;
+	line-height: 1.5;
+	width: 360px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.section-2-nodal div:nth-child(2){
+	margin: auto;
+	width:360px;
+	margin-bottom: 25px;
+}
+
+.form-mobile{
+	width: 360px;
+	margin: auto;
+}
+
+.form-mobile input{
+	border: none;
+	border-bottom: 1px solid #686767;
+	background: none;
+	width: 100%;
+	margin: 30px auto;
+	font-size: 20px;
+	color: white;
+	font-family: roboto;
+
+}
+
+.form-mobile p{
+	color: white;
+	font-family: roboto;
+	font-size: 20px;
+}
+
+.form-mobile textarea{
+	width: 360px;
+	height: 110px;
+	color: white;
+	background: none;
+}
+
+.content-button-nodal{
+	text-align: center;
+}
+
+.form-mobile button{
+	color: white;
+	font-family: roboto;
+	font-size: 25px;
+	font-weight: 700;
+	background:#FFCB00;
+	border: none;
+	width: 100%;
+	padding: 5px 0;
+	margin-top: 52px;
+	margin-bottom: 25px;
+}
+
+.content-equis-mobile{
+	background: #D8D8D8;
+	position: absolute;
+	top:0;
+	left: 0;
+	cursor: pointer;  
+}
+
+/* termina nodal mobile */
+
+/* comienza nodal mobile */
+
+@media (min-width: 948px){
+	.nodal-desk{
+		display: block;
+		position: relative;
+	}
+	.nodal-desk{
+	background: black;
+	max-width: 945px;
+	margin: auto;
+	margin-top:0px;
+	transition: all 0.8s;
+
+	}
+	.nodal-mobile{
+	display: none;
+	}
+
+.title-nodal-desk p{
+	font-size: 45px;
+	font-weight: 700;
+	font-family: roboto;
+	color: white;
+	text-align: center;
+}
+
+.title-nodal-desk span{
+	font-size: 45px;
+	font-weight: 700;
+	font-family: roboto;
+	color:#FFCB00;
+}
+
+.section-2-nodal-desk{
+	display: flex;
+	margin-left: 100px;
+}
+
+.section-2-nodal-desk div{
+	margin: 20px 20px;
+}
+
+.section-2-nodal-desk p{
+	color: white;
+	font-family: roboto;
+	margin-bottom: 25px;
+}
+.section-3-nodal-desk{
+	display: flex;
+}
+.section-3-nodal-desk .social-desk-nodal{
+	background: #D8D8D8;
+	max-width: 60px;
+}
+
+.section-3-nodal-desk .social-desk-nodal img{
+	width: 46px;
+	margin: 10px auto;
+	height: auto;
+	cursor: pointer;
+}
+
+.section-3-nodal-desk .social-desk-nodal img:nth-child(1){
+	margin-top: 25px;
+}
+
+.section-3-nodal-desk .form-desk{
+	margin-left: 70px;
+}
+
+.section-3-nodal-desk .form-desk input{
+	background: none;
+	border: none;
+	border-bottom: 1px solid #686767;
+	color: white;
+	font-family: roboto;
+	font-size:20px;
+	padding-bottom:15px; 
+}
+
+.section-3-nodal-desk .form-desk input:nth-child(1){
+	margin-bottom:53px;
+	margin-right:43px; 
+}
+
+.section-3-nodal-desk .form-desk textarea{
+	background: none;
+	color: white;
+	width: 230px;
+	height: 110px;
+}
+
+.section-3-nodal-desk .form-desk button{
+	font-family: roboto;
+	color: white;
+	background:#FFCB00;
+	border:none;
+	font-size: 25px;
+	font-weight: 700;
+	padding: 0 80px;
+	margin-left: 50px;
+	position: relative;
+	top: -10px;
+}
+
+.content-equis-desk{
+	background: #D8D8D8;
+	position: absolute;
+	top:0;
+	left: 0;
+	cursor: pointer; 
+}
+
+/* termina nodal mobile */
+}
+
+
+

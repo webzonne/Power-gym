@@ -1,0 +1,330 @@
+
+/* FOOTER MOBILE COMIENZA */
+.logo-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-title div{
+	margin: 0 10px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+
+}
+
+.footer-desk{
+	display: none;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.contact-usan p:nth-child(1){
+	font-size: 25px;
+	text-align: center;
+	font-family: roboto;
+	font-style: light;
+	font-weight: 100;
+	margin-bottom: 58px;
+}
+
+.contact-usan p:nth-child(2){
+	text-align: center;
+	font-family: roboto;
+	font-style: light;
+	font-weight: 100;
+	padding-bottom: 50px;
+	font-size: 40px;
+	margin: 0 auto;
+	margin-bottom: 58px;
+	border-bottom:2px solid black;
+	max-width: 396px;	
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.about-us-footer h3{
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 38px;
+}
+
+.about-us-footer p {
+	text-align: center;
+	line-height: 1.5;
+	font-size:15px;
+	font-family: roboto; 
+	margin-bottom: 40px;
+	max-width: 300px;
+	margin: auto;
+	margin-bottom: 55px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.program-footer p{
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.items-footer{
+	width:276px;
+	margin:auto;
+	margin-bottom: 134px;
+}
+
+.item1-f{
+	display: flex;
+	justify-content:flex-start;
+	align-items: flex-end;
+	margin: 55px auto;
+}
+
+.item1-f img{
+	flex-wrap: wrap;
+	margin-right: 60px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.item1-f p{
+	margin: 0;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+.ready-footer h3{
+	font-family: roboto;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.ready-footer p{
+	font-family: roboto;
+	font-size:15;
+	text-align: center;
+	margin-bottom: 50px;
+	max-width: 300px;
+	margin: auto;
+	margin-bottom: 55px; 
+}
+
+.ready-footer-button{
+	text-align: center;
+}
+
+.ready-footer-button button{
+	color: black;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 700;
+	background:#FFCB00;
+	padding: 10px 40px;
+	margin-bottom: 67px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s; 
+}
+
+.ready-footer-button button:hover{
+	background:black;
+    color: white;
+
+}
+
+.redes-social-footer{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 56px;
+}
+
+.redes-social-footer div{
+	margin: 20px 40px;
+	cursor: pointer;
+}
+
+.copy-footer{
+	text-align: center;
+	font-family: roboto;
+	font-size: 15px;
+	color: black;
+	margin: auto;
+	cursor: pointer;
+}
+
+/* FOOTER MOBILE TERMINA */
+
+
+/* FOOTER DESK COMIENZA */
+
+@media (min-width: 1024px){
+
+ .footer-desk{
+ 	display: block;
+ }
+
+ .footer-mobile{
+ 	display: none;
+ }
+
+.footer-desk .title-footer-desk{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.footer-desk .title-footer-desk div{
+	margin: 0 10px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+.footer-desk .contact-usan-desk p:nth-child(1){
+	font-size: 30px;
+	text-align: center;
+	font-family: roboto;
+	font-style: light;
+	font-weight: 100;
+	margin-bottom: 58px;
+}
+
+.footer-desk .contact-usan-desk p:nth-child(2){
+	text-align: center;
+	font-family: roboto;
+	font-style: light;
+	font-weight: 100;
+	padding-bottom: 20px;
+	font-size: 80px;
+	margin: 0 auto;
+	margin-bottom: 58px;
+	border-bottom:2px solid black;
+	max-width: 792px;
+}
+
+.footer-desk .footer-all-item{
+	display: flex;
+	justify-content: center;
+	margin:10px;
+	margin-bottom: 45px;
+}
+
+.footer-desk .footer-all-item section{
+	margin: 0 20px;
+}
+
+/*      item 1    */
+.footer-desk .about-footer-desk p:nth-child(1){
+	font-family: roboto;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 27px;
+}
+
+.footer-desk .about-footer-desk p:nth-child(2){
+	font-family: roboto;
+	font-size:20px;
+	line-height: 1.5;
+	margin-bottom: 95px;
+	max-width: 411px; 
+}
+
+.footer-desk .redes-social-footer-desk{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-desk .redes-social-footer-desk div{
+	cursor: pointer;
+	margin-right: 40px;
+}
+
+.footer-desk .redes-social-footer-desk div:nth-child(2){
+
+}
+
+/* item-2 */
+
+.footer-desk .program-desk{
+	font-family: roboto;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.footer-desk .items-footer-desk{
+	margin: 20px 40px;
+} 
+
+.footer-desk .item-footer-desk{
+	display: flex;
+	align-items: flex-end;
+	margin: 40px auto;
+}
+
+.footer-desk .item-footer-desk img{
+	margin-right: 40px;
+}
+
+.footer-desk .item-footer-desk p{
+	margin: 0;
+}
+
+/* item 3 */
+
+.footer-desk .item-3 p:nth-child(1){
+	font-family: roboto;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.footer-desk .item-3 p:nth-child(2){
+	font-family: roboto;
+	font-size: 20px;
+	line-height: 1.5;
+	max-width: 388px;
+	margin-bottom: 114px;
+	padding-left: 68px;
+}
+
+.footer-desk .desk-footer-button{
+	text-align: center;
+}
+
+.footer-desk .desk-footer-button button{
+	color: black;
+	background:#FFCB00;
+	font-family: roboto;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 15px 70px;
+	cursor: pointer;
+	border: none;
+	transition: 0.3s; 
+}
+
+.footer-desk .desk-footer-button button:hover{
+	background:black;
+	color: white;
+}
+
+/* otro */
+.footer-desk .copy-right-desk p{
+	text-align: center;
+	font-family: roboto;
+	font-size:20px; 
+}
+
+/* FOOTER DESK TERMINA */
+
+}
