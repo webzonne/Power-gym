@@ -18,7 +18,6 @@ $(".izq").click(function(){
 
 function auto(){
     i++;
-    console.log(i);
     $("#radio"+i).prop("checked", true); 
     if(i==3){
         i=0;
