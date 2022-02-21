@@ -214,12 +214,12 @@
     
     .content-membresia .one{
         margin: 0 auto;
-        transition: 0.3s;
+         transition: 0.3s!important;
         cursor: pointer;
     }
     
     .content-membresia .one:hover{
-        transform: scale(1.1);
+        transform: scale(1.1)!important;
     }
     
     .content-membresia .one ul{
@@ -229,12 +229,12 @@
     }
     
     .content-membresia .two{
-        transition: 0.3s;
+       transition: 0.3s !important;
         cursor: pointer;
     }
     
     .content-membresia .two:hover{
-        transform: scale(1.1);
+        transform: scale(1.1)!important;
     }
     
     .content-membresia .two ul{
@@ -248,12 +248,12 @@
     }
     
     .content-membresia .theree{
-        transition: 0.3s;
+         transition: 0.3s !important;
         cursor: pointer;
     }
     
     .content-membresia .theree:hover{
-        transform: scale(1.1);
+        transform: scale(1.1)!important;
     }
     
     .content-membresia .theree ul{
