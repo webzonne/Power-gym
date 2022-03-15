@@ -1,4 +1,7 @@
-$(window).load(funcion(){
-   $(".loader").fadeOut("slow");
-   console.log("funciona");
-});
+window.addEventListener('load', ()=>{
+    
+    const body = document.getElementById("body");
+    body.style.opacity = 0;
+    body.style.visibility = "hidden";
+    
+})
