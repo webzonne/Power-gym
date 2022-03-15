@@ -17,9 +17,6 @@ const programFooter = document.getElementById("program-footer");
 const readyFooter = document.getElementById("ready-footer");
 const copyRight = document.getElementById("copy-right");
 
-function cargarPagina(){
-    console.log("welcome")
-}
 
 const accion = ( elementos, observador) =>{
     
