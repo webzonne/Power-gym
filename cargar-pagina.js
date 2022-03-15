@@ -1,3 +1,4 @@
 $(window).load(funcion(){
-   $(".loader").fadeOut("slow");            
+   $(".loader").fadeOut("slow");
+   console.log("funciona");
 });
