@@ -8,21 +8,6 @@ box-sizing: border-box;
 
 /* ESTILO DE TODA LA PAGINA TERMINA */
 
-/*AL CARGAR LA PAGINA COMIENZA */
-
-.loader{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('img/loading.png') 50% 50% no-repeat rgb(249,249,249);
-    opacity:1;  
-}
-
-/*AL CARGAR LA PAGINA TERMINA */
-
 /* ESTILO DEL NAV MOBILE COMIENZA */
 nav{
     background:#191919;
